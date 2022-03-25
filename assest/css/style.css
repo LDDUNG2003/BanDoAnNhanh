@@ -180,6 +180,7 @@
     border-right: 15px solid transparent;
     border-bottom: 15px solid #fff;
     Display: block;
+    z-index: 10;
 }
 
 .slider__opstion::before {
@@ -190,6 +191,8 @@
     width: 100%;
     height: 20px;
     Display: block;
+    z-index: 10;
+    /* background-color: #fff; */
 }
 
 .slider__opstion-item {
@@ -213,10 +216,11 @@
 .slider__img--warp {
     Position: absolute;
     width: 80%;
-    Height: 250px;
+    Height: 320px;
     Z-index: 1;
-    top: 60px;
+    top: 48px;
     Right: 0;
+    /* background-color: #fff; */
 }
 
 #slider__img {
@@ -402,7 +406,8 @@
 .foodTheBest--content {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -30px;
+    margin: 0px -34px;
+    /* justify-content: space-between; */
 }
 
 .foodTheBest--item {
@@ -411,7 +416,7 @@
     padding: 10px;
     width: 320px;
     height: 126px;
-    margin: 10px 30px;
+    margin: 10px 34px;
     cursor: pointer;
 }
 
@@ -463,7 +468,7 @@
 .promotion--content {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -30px;
+    margin: 0px -34px;
 }
 
 .promotion--item {
@@ -472,7 +477,7 @@
     padding: 10px;
     width: 320px;
     height: 126px;
-    margin: 10px 30px;
+    margin: 10px 34px;
     cursor: pointer;
 }
 

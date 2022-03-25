@@ -5,9 +5,10 @@
     font-weight: bold;
     padding: 5px;
     text-align: center;
+    padding: 0px;
 }
 
-.app__header {
+.header-navbar-warp {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
