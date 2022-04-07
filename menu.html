@@ -2,92 +2,383 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF" -8>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="menu8.css">
-    <title>bài tập nhóm</title>
+    <title>jollibee vn</title>
+    <link rel="shortcut icon" href="./assest/img/logo.png">
+    <link rel="stylesheet" href="./assest/font/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assest/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assest/css/clear.css">
+    <link rel="stylesheet" href="./assest/css/menu8.css">
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="row">
-                <div class="col-2 menu">
-                    <img src="anh9.png"></a>
+    <div class="main">
+        <header class="app__header">
+            <div class="header-navbar-warp">
+                <div class="grid">
+                    <div class="header-navbar">
+                        <ul class="header__list">
+                            <li class="header__list--item">
+                                <a href="index.html" class="header__list-link">
+                                    <i class="header__list-icon fas fa-home"></i>Home
+                                </a>
+                            </li>
+                            <li class="header__list--item">
+                                <a href="menu.html" class="header__list-link">
+                                    <i class="header__list-icon fas fa-book"></i>Thực Đơn
+                                </a>
+                            </li>
+                            <li class="header__list--item">
+                                <a href="" class="header__list-link">
+                                    <i class="header__list-icon fas fa-pen"></i>Blog
+                                </a>
+                            </li>
+                            <li class="header__list--item">
+                                <a href="tell:" class="header__list-link">
+                                    <i class="header__list-icon fas fa-phone-alt"></i>Liên Hệ
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="header__list header__list-cart">
+                            <li class="header__list-item header__cart">
+                                <a href="" class="header__list-link header__cart--link">
+                                    <i class="fas fa-shopping-cart header__cart-icon"></i>
+                                    <p class="header__list-text">0 <span class="unit--text">đ</span> (0 products)</p>
+                                </a>
+                            </li>
+                            <li class="header__list-item header__saerch">
+                                <a href="" class="header__list-link header__search--link">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-2">
+            </div>
+            <div class="header__slider-warp">
+                <div class="grid">
+                    <div class="header__slider">
+                        <a href="index.html" class="header__logo--link">
+                            <img src="./assest/img/logo.png" alt="">
+                        </a>
+                        <ul class="slider__list">
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    ALL
+                                </a>
+                            </li>
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    DRINKS
+                                </a>
+                                <ul class="slider__opstion">
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Hots Drinks
+                                        </a>
+                                    </li>
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Cooktails
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    MEALS
+                                </a>
+                                <ul class="slider__opstion">
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Main
+                                        </a>
+                                    </li>
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Soup
+                                        </a>
+                                    </li>
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Pasta
+                                        </a>
+                                    </li>
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Pizza
+                                        </a>
+                                    </li>
+                                    <li class="slider__opstion-item">
+                                        <a href="" class="slider__opstion-link">
+                                            Sandwiches
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    SALADS
+                                </a>
+                            </li>
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    DESSERTS
+                                </a>
+                            </li>
+                            <li class="slider__list-item">
+                                <a href="" class="slider__list-link">
+                                    THỰC DƠN
+                                </a>
+                            </li>
+                        </ul>
+                        <Div class="slider__img--warp">
+                            <div id="slider__img">
+                                <button id="slider__return" class="slider__btn">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                </button>
+                                <button id="slider__next" class="slider__btn">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+
+                        </Div>
+                    </div>
                 </div>
-                <div class="col-1 menu">
-                    <ul>
-                        <li><a href="#" title="Trang chủ"><a href="index.html" title="Xem nội dung" targer="blank";>HOME</a></li>
-                        <li><a href="#" title="THỰC ĐƠN"><a href="https://nhahang5.namdinhweb.com/thuc-don/" title="Xem nội dung" targer="blank";>THỰC ĐƠN</a>
-                            <ul class="iteam_list">
-                                <li class="iteam_list-extra">Drinks
-                                    <a></li>
-                                <li class="iteam_list-extra"><a href="https://nhahang5.namdinhweb.com/danh-muc-san-pham/meals/" title="Xem nội dung" targer="blank" ;>Meals<a></li>
-<li class="iteam_list-extra"><a href="https://nhahang5.namdinhweb.com/danh-muc-san-pham/meals/" title="Xem nội dung" targer="blank";>Salads</a></li>
-                            </ul>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                <div class="buy--drink">
+                    <h1 class="buy--drink--header">Top drink sale</h1>
+                    <div class="drink--content">
+                        <div class="San_pham">
+                            <img src="tea2.jpg" ; style="width:300px; height:200px;">
+                            <div class="Tieu_de">
+                                <p>Trà Chanh<br/> Đơn giá: 50.000</p>
+                                ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
+                                </p><br/>
+                            </div>
+                        </div>
+                        <div class="San_pham">
+                            <img src="tea9.jpg" ; style="width:300px; height:200px">
+                            <div class="Tieu_de">
+                                <p>Sting<br/> Đơn giá: 8.000</p>
+                                ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
+                                </p><br/>
+                            </div>
+                        </div>
+                        <div class="San_pham">
+                            <img src="tea10.jpg" ; style="width:300px; height:200px">
+                            <div class="Tieu_de">
+                                <p>Ngựa húc<br/> Đơn giá: 9.000</p>
+                                ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
+                                </p><br/>
+                            </div>
+                        </div>
+                        <div class="San_pham">
+                            <img src="tea7.jpg" ; style="width:300px; height:200px">
+                            <div class="Tieu_de">
+                                <p>Bò húc<br/> Đơn giá: 10.000</p>
+                                ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
+                                </p><br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="container--foodTheBest">
+                    <h1 class="foodTheBest--header">bánh ngọt và đồ ăn đi kèm</h1>
+                    <div class="foodTheBest--content">
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-3796772-sandwich-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Sandwich with Italian goat cheese and fresh olives</p>
+                                <p class="foodThebest__note-footer">5<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-9894706-delicious-fresh-homemade-banana-bread-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Garaz</p>
+                                <p class="foodThebest__note-footer">12<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-3095680-cheesecake-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Cherry Cheese Cake</p>
+                                <p class="foodThebest__note-footer">5<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-9376623-sandwich-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Sandwich with vegetables</p>
+                                <p class="foodThebest__note-footer">4<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-9894706-delicious-fresh-homemade-banana-bread-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Homemade Banana Bread (cake)</p>
+                                <p class="foodThebest__note-footer">23<span>đ</span></p>
+                            </div>
+                        </div>
+                        <div class="foodTheBest--item">
+                            <img src="./assest/img/photodune-1479643-dessert-s-106x106.jpg" alt="" class="foodTheBest--img">
+                            <div class="foodTheBest__note">
+                                <p class="foodTheBest__note-header">Fan-shaped puff Pastries</p>
+                                <p class="foodThebest__note-footer">4<span>đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="container--promotion">
+                    <h1 class="promotion--header">
+                        cocktail phổ biến nhất
+                    </h1>
+                    <div class="promotion--content">
+                        <div class="promotion--item">
+                            <img src="./assest/img/cocktail-stirrers.png" alt="" class="promotion--img">
+                            <div class="promotion__note">
+                                <p class="promotion__note-header">Cocktail Stirrers</p>
+                                <div class="promotion__note-footer">
+                                    <p class="promotion__price">26 <span>đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promotion--item">
+                            <img src="./assest/img/Alexander-cocktail.jpg" alt="" class="promotion--img">
+                            <div class="promotion__note">
+                                <p class="promotion__note-header">Alexander Cocktail </p>
+                                <div class="promotion__note-footer">
+                                    <p class="promotion__price">99 <span>đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promotion--item">
+                            <img src="./assest/img/zombie-cocktail.jpg" alt="" class="promotion--img ">
+                            <div class="promotion__note ">
+                                <p class="promotion__note-header ">Zombie - cocktail</p>
+                                <div class="promotion__note-footer ">
+                                    <p class="promotion__price ">45 <span>đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="app__footer ">
+            <div class="grid">
+                <div class="footer__input ">
+                    <h1 class="footer__input--header">NEWSLETTER</h1>
+                    <div class="footer__input-content">
+                        <input type="text" placeholder="Your email address" name="" class="footer__input-input" id="">
+                        <input type="button" value="SIGN UP" class="footer__input--btn">
+                    </div>
+                </div>
+                <div class="footer__menu ">
+                    <ul class="footer__menu--list ">
+                        <h1 class="footer__menu--header ">DỊCH VỤ
+                        </h1>
+                        <li class="footer__menu--item ">
+                            <a href="index.html " class="footer__menu--link ">Home</a>
                         </li>
-                        <li><a href="#" title="Giới thiệu"><a href="https://nhahang5.namdinhweb.com/blog/" title="Xem nội dung" targer="blank";>BLOG</a></a>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Thực Đơn</a>
                         </li>
-                        <li><a href="#" title="Liên hệ"><a href="https://nhahang5.namdinhweb.com/lien-he/" title="Xem nội dung" targer="blank";>LIÊN HỆ</a></a>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Blog</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Liên Hệ</a>
                         </li>
                     </ul>
-        </nav>
-        </div>
-        </div>
-        </div>
-    </header>
-    <div style="background-color:bisque; width:1500px; height:1000px;margin-bottom:auto;">
-        <a href="https://nhahang5.namdinhweb.com/" title="Xem nội dung" target="blank" ;> Trang chủ</a>
-        <div class="Web_nuoc">
-            <h1>WEB BÁN ĐỒ ĂN NHANH</h1>
-        </div>
-        <div class="Nuoc_uong">
-            <h1 align="left">DRINKS</h1>
-        </div>
-        <div class="San_pham">
-            <img src="tea2.jpg" ; style="width:300px; height:200px;">
-            <div class="Tieu_de">
-                <p>TRÀ CRANBERRY<br/> Đơn giá: 50.000</p><br/>
+                    <ul class="footer__menu--list ">
+                        <h1 class="footer__menu--header ">MENU
+                        </h1>
+                        <li class="footer__menu--item ">
+                            <a href="index.html " class="footer__menu--link ">Shop</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Thực Đơn</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Drinks</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Meals</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Desserts</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Salads</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">My Account</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Checkout</a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">Cart</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu--list ">
+                        <h1 class="footer__menu--header ">FOLLOW US ON...
+                        </h1>
+                        <li class="footer__menu--item ">
+                            <a href="" class="footer__menu--link ">
+                                <i class="footer__menu--icon fa-brands fa-facebook"></i>Facebook
+                            </a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href="" class="footer__menu--link ">
+                                <i class="footer__menu--icon fa-brands fa-twitter"></i>Twitter
+                            </a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">
+                                <i class="footer__menu--icon fa-brands fa-google-plus-g"></i>Gplus
+                            </a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">
+                                <i class="footer__menu--icon fa-brands fa-youtube"></i>Youtube
+                            </a>
+                        </li>
+                        <li class="footer__menu--item ">
+                            <a href=" " class="footer__menu--link ">
+                                <i class="footer__menu--icon fa-solid fa-square-rss"></i>Rss Feed
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
+        </footer>
+        <div class="copyright">
+            <div class="copyright__header">
+                <p>Trang web được sao chép từ:</p>
+                <a class="copyright__link" href="https://jollibee.com.vn">jollibee 2017</a></div>
+            <p class="copyright__footer">Trang web được copy nhằm mục đích học tập không được sử dụng trong mục đích khác</p>
         </div>
-        <div class="San_pham">
-            <img src="tea9.jpg" ; style="width:300px; height:200px">
-            <div class="Tieu_de">
-                <p>Sting<br/> Đơn giá: 8.000</p>
-                </p><br/>
-            </div>
-            ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
-        </div>
-        <div class="San_pham">
-            <img src="tea10.jpg" ; style="width:300px; height:200px">
-            <div class="Tieu_de">
-                <p>Ngựa húc<br/> Đơn giá: 9.000</p>
-                </p><br/>
-            </div>
-            ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
-        </div>
-        <div class="San_pham">
-            <img src="tea7.jpg" ; style="width:300px; height:200px">
-            <div class="Tieu_de">
-                <p>Bò húc<br/> Đơn giá: 10.000</p>
-                </p><br/>
-            </div>
-            ĐẶT MUA:<input type="submit" value="THÊM VÀO GIỎ">
-        </div>
-        <div style="background-color:darkolivegreen; color:rgb(12, 211, 22); width:1500px; height:330px; margin-top:0px; text-align:center;">
-            ĐĂNG NHẬP ĐỊA CHỈ EMAIL:
-            <tr>
-                <td></td>
-                <td><input action="" method="post" enctype="multipart/form-data" id="formid"></td>
-            </tr><input type="submit" value="SIGN UP"><br/> _
-            <br/>
-            <img src="tea4.jpg" ; style="width:300px; height:200px;"><br/> FOLLOW US ON: <a href="https://www.facebook.com/profile.php?id=100047200872484" title="Xem nội dung" targer="blank" ;> FACEBOOK</a><br/> MẪU WEBSITE BÁN ĐỒ ĂN NHANH<br/> HOÀNG
-            VĂN THÀNH
-</body>
-
+    </div>
+    <script language="JavaScript" src="./assest/js/main.js"></script>
 </body>
 
 </html>

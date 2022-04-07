@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 1px;
+}
+
+.row {
+    display: flex;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: -5px;
+}
+
+.col-2 {
+    flex: 0 0 16.67%;
+    max-width: 16.67%;
+    height: 150px;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 25px;
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+}
+
+ul.menu_child {
+    background-color: blueviolet;
+}
+
+nav ul li:hover>a {
+    background: rgb(245, 241, 241);
+    color: rgb(223, 72, 13);
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+}
+
+nav li ul li {
+    width: 45%;
+    border-bottom: 1px solid rgb(240, 230, 230);
+    background: rgb(245, 239, 239);
+    text-align: center;
+    /*Phần list trong thực đơn*/
+}
+
+nav li ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+.Web_nuoc {
+    padding-left: 700px;
+    color: cornflowerblue;
+}
+
+.Nuoc_uong {
+    padding: 63px;
+    padding-bottom: 5px;
+}
+
+
+/*Phần Drinks*/
+
+.San_pham {
+    float: center;
+    margin-left: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Tieu_de {
+    background-color: rgba(241, 248, 240, 0.5);
+    color: cornflowerblue;
+    width: 300px;
+    height: 50px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: -70px;
+    transition: all 1s ease-out;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.San_pham:hover .Tieu_de {
+    bottom: 10px;
+    transform: translateY(-2px);
+}
+
+input:hover {
+    background-color: rgb(238, 11, 60)
+}
+
+input:focus {
+    background-color: rgb(226, 247, 191);
+    padding: 3px;
+    border: solid 3px;
+}
+
+
+/* code bổ sung css & html */
+
+.buy--drink--header {
+    padding: 0px 20px;
+    font-size: 2.3rem;
+}
+
+.drink--content {
+    display: flex;
+    justify-content: space-between
+}
